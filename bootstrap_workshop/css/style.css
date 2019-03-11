@@ -1,0 +1,65 @@
+body {
+    padding-bottom: 200px;
+}
+.col-md-1 {
+    line-height: 100px;
+    text-align: center;
+    color: rgba(0,0,0,.2);
+    font-size: 2em;
+    font-family: fantasy;
+    font-weight: 900;
+    height: 100px;
+    background-color: rgb(255, 230, 0);
+    background-clip: content-box;
+    left: -15px;
+}
+
+.grid {
+   
+    display:none;
+    position: absolute;
+    z-index: 999;
+}
+
+.col-md-4 {
+   
+    line-height: 250px;
+    text-align: center;
+    color: rgba(0,0,0,.5);
+    font-family: fantasy;
+    font-size: 2em;
+    margin-top: 20px;
+    height: 250px;
+    background-color: rgb(45, 43, 150);
+    background-clip: content-box;
+}
+.col-md-3 {
+    line-height: 170px;
+    text-align: center;
+    color: rgba(0,0,0,.5);
+    font-family: fantasy;
+    font-size: 2em;
+    margin-top: 20px;
+    height: 170px;
+    background-color: rgb(39, 65, 180);
+    background-clip: content-box;
+}
+
+.col-md-2 {
+    line-height: 170px;
+    text-align: center;
+    color: rgba(0,0,0,.5);
+    font-family: fantasy;
+    font-size: 2em;
+    margin-top: 20px;
+    height: 170px;
+    background-color: rgb(36, 71, 228);
+    background-clip: content-box;
+}
+
+.col-md-5, .col-md-7 {
+    height: 150px;
+    background-color: #000;
+    background-clip: content-box;
+    margin-top: 20px;
+}
